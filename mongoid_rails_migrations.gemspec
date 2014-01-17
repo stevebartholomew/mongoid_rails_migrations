@@ -6,14 +6,15 @@ Gem::Specification.new do |s|
   s.version     = MongoidRailsMigrations::VERSION
   s.summary     = 'Data migrations for Mongoid in Active Record style, minus column input.'
   s.license     = 'MIT'
-  s.description = 'Migrations for the migrator.'
+  s.description = 'Migrations for the Mongoid.'
 
   s.required_ruby_version     = '>= 1.8.6'
   s.required_rubygems_version = '>= 1.3.6'
 
-  s.author            = 'Alan Da Costa'
-  s.email             = 'alandacosta@gmail.com'
-  s.date              = %q{2013-03-14}
+  s.authors            = ['Alan Da Costa', 'Stephen Bartholomew']
+  s.email             = ['alandacosta@gmail.com', 'stephenbartholomew@gmail.com']
+
+  # @see also http://github.com/stevebartholomew/mongoid_rails_migrations
   s.homepage          = 'http://github.com/adacosta/mongoid_rails_migrations'
 
   s.require_paths = ['lib']
@@ -27,6 +28,6 @@ Gem::Specification.new do |s|
   s.add_dependency('rails',  rails_version)
   s.add_dependency('railties',  rails_version)
   s.add_dependency('activesupport',  rails_version)
-  s.add_development_dependency('mongoid', '>= 3.0.0')
+  s.add_dependency('mongoid', '>= 3.0.0')
   s.add_development_dependency('test-unit', '>= 2.5.0')
 end
