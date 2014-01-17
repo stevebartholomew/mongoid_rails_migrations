@@ -1,3 +1,5 @@
+require 'mongoid'
+
 # encoding: utf-8
 module Mongoid
   # Specify whether or not to use timestamps for migration versions

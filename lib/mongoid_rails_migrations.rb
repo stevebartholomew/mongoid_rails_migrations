@@ -1,6 +1,5 @@
 # encoding: utf-8
 require 'bundler/setup'
-Bundler.require(:mongoid_rails_migrations)
 
 # Add base to path incase not included as a gem
 $:.unshift(File.dirname(__FILE__)) unless

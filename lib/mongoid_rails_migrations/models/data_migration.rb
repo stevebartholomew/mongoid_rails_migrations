@@ -1,3 +1,5 @@
+require 'mongoid'
+
 class DataMigration
   include Mongoid::Document
 
