@@ -7,7 +7,7 @@ Works with rails >= 3.2.0 and mongoid >= 3.0.0
 In your Gemfile add:
 
 ```
-gem 'mongoid_rails_migrations', git: 'http://github.com:stevebartholomew/mongoid_rails_migrations.git'
+gem 'mongoid_rails_migrations', git: 'http://github.com/stevebartholomew/mongoid_rails_migrations.git'
 ```
 
 == Generators
