@@ -2,7 +2,7 @@ Data migrations for Mongoid.
 
 Works with rails >= 3.2.0 and mongoid >= 3.0.0
 
-== Installation
+## Installation
 
 In your Gemfile add:
 
@@ -10,13 +10,13 @@ In your Gemfile add:
 gem 'mongoid_rails_migrations', git: 'http://github.com/stevebartholomew/mongoid_rails_migrations.git'
 ```
 
-== Generators
+## Generators
 
 ```
 rails generate mongoid:migration your_migration_name_here
 ```
 
-== Rake tasks
+## Rake tasks
 
 * db:migrate
 * db:migrate:down
@@ -27,7 +27,7 @@ rails generate mongoid:migration your_migration_name_here
 * db:reseed (handled by mongoid)
 * db:version
 
-== Credits TO
+## Credits
 
 This is modification of the gem originally created by Alan Da Costa: https://github.com/adacosta/mongoid_rails_migrations.git
 
